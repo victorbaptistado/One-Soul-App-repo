@@ -1,0 +1,143 @@
+/* GENERAL */
+
+:root {
+  font-size: 62.5%;
+  background-color: rgb(41, 63, 83);
+  height: 100vh;
+}
+
+* {
+  margin: 0rem;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* UTILITIES */
+
+.wrapper {
+  max-width: 60vw;
+  max-height: 100vw;
+  justify-items: center;
+  background-color: rgb(248, 228, 197);
+  margin: 0 auto;
+  border-radius: 2rem;
+  border: 5px solid rgba(233, 154, 64, 0.7);
+}
+
+.columnsHead {
+  display: grid;
+  grid-template-columns: 15% 90%;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+#image-challenge {
+  margin-top: 2rem;
+  margin-left: 9%;
+  border-radius: 0rem 2rem 0rem 0rem;
+  width: 70%;
+}
+
+/* TEXT */
+
+a {
+  width: 0px;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2.1rem;
+  color: rgb(212, 199, 17);
+}
+
+h2 {
+  font-size: 3rem;
+  width: 50%;
+  padding: 2rem 0px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 2rem;
+  padding: 2rem 0px;
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  margin-left: 10%;
+}
+
+#challengenum {
+  margin-left: 20%;
+}
+
+/* BUTTONS */
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #56a5eb;
+  margin-top: 5%;
+  margin-bottom: 7%;
+  text-decoration: none;
+  color: #56a5eb;
+  background-color: white;
+  border-radius: 2rem;
+}
+
+.btnIntro {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #56a5eb;
+  margin-bottom: 2%;
+  margin-left: 37.5%;
+  text-decoration: none;
+  color: #edf1f5;
+  background-color: rgb(233, 154, 64);
+  border-radius: 2rem;
+}
+
+#returnbtn {
+  background-color: transparent;
+  border-style: none;
+  margin-bottom: 5%;
+  margin-left: 10rem;
+}
+
+#returnbtn:hover {
+  background-color: red;
+}
+
+#nextbtn {
+  margin-left: 4rem;
+}
+
+.btnIntro:hover,
+.btn:hover {
+  color: white;
+  background-color: rgba(243, 2, 2, 0.719);
+}
+
+#challenges {
+  font-size: 2rem;
+  margin-top: 1.1rem;
+}
+
+#homebtn {
+  margin: 20% 100%;
+}
