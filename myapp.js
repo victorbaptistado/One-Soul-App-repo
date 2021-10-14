@@ -11,7 +11,7 @@ var currentChallenge = 0;
 /*    ARRAYS    */
 
 var challengeArray = [
-    "Your journey to self-improvement is about to begin. \n Congratulation for taking this step. \n\n Each quest must be taken in a day, and once you accomplish the daily challenge,  click the NEXT button. If for any reason you're not able to realise the challenge, press the 'scape' button to jump to the next challenge. Once per day, dedicate yourself to each challenge. \n\n Now let's start!",
+    "our journey to self-improvement is about to begin. \n Congratulation for taking this step. \n\n Each quest must be taken in a day, and once you accomplish the daily challenge,  click the NEXT button. If for any reason you're not able to realise the challenge, press the 'scape' button to jump to the next challenge. Once per day, dedicate yourself to each challenge. \n\n Now let's start!",
     "This challenge is more than a one day-challenge. It should be incorporated into your daily routine.",
     "Tre-bien",
     "New",
